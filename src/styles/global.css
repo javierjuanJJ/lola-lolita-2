@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary-light: #ff99d1;
+    --color-primary: #ff0695;
+    --color-primary-dark: #a80060;
+  
+    --color-theme-blue: #383acf;
+    --color-theme-blue-light: #66dfff;
+    --color-theme-cyan: #61e2e5;
+    --color-theme-green: #2b8364;
+    --color-theme-green-light: #98d354;
+}
+
+:root {
+    /* Colores basados en el PDF de branding */
+    --color-primary-light: #FF9FCE; 
+    --color-primary: #FF007F; 
+    --color-cian: #00FFFF;
+    --color-green: #00FF00;
+    --color-green-light: #90EE90;
+}
