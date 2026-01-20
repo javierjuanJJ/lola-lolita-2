@@ -6,7 +6,7 @@ import DotBackground from "../components/DotBackground.astro"
   <DotBackground />
   <div class="relative mx-auto mb-16 aspect-video max-w-6xl">
     <img
-      class="animate-fade-in-down animate-delay-500 absolute top-0 right-0 left-0 z-50 mx-auto w-56"
+      class="animate-fade-in-down animate-delay-500 absolute top-0 right-0 left-0 z-50 mx-auto w-20 sm:w-32 md:w-56"
       src="/favicon.svg"
       alt="Logo de Lola Lolita Land"
     />
@@ -17,7 +17,7 @@ import DotBackground from "../components/DotBackground.astro"
     />
     <img
       aria-hidden="true"
-      class="absolute bottom-0 z-0 m-auto h-full w-auto scale-105 opacity-50 blur-xl"
+      class="absolute bottom-0 z-0 m-auto h-full w-auto scale-[102%] opacity-50 blur-md"
       src="/images/hero-blur.jpg"
       alt="Fotografía de una joven recostada, que es Lola Lolita, sobre la arena con una cola de sirena azul, frente a una piscina con toboganes rosas en un entorno tropical, con el texto ‘Lola Lolita Land’ en la parte superior."
     />
@@ -25,7 +25,7 @@ import DotBackground from "../components/DotBackground.astro"
 
   <div class="mx-auto max-w-2xl lg:max-w-6xl">
     <div
-      class="mx-auto flex flex-row items-center justify-center gap-x-4 text-lg font-semibold tracking-tight text-balance text-gray-950 md:gap-x-8 md:text-2xl lg:text-3xl xl:text-4xl"
+      class="mx-auto flex flex-row items-center justify-center gap-x-4 text-lg font-semibold tracking-tight text-balance text-gray-950 md:gap-x-8 md:text-2xl lg:text-3xl xl:text-4xl view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_10%_contain_25%]"
     >
       <div class="shrink-0">
         <img
@@ -39,7 +39,7 @@ import DotBackground from "../components/DotBackground.astro"
       >
     </div>
     <div class="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
-      <div class="relative lg:col-span-3">
+      <div class="relative lg:col-span-3 view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_1%_contain_3%]">
         <div
           class="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]"
         >
@@ -49,7 +49,7 @@ import DotBackground from "../components/DotBackground.astro"
         >
           <div class="relative h-80 w-full overflow-hidden">
             <img
-              class="relative h-full w-full object-cover object-center object-right [mask-image:linear-gradient(to_bottom,black_80%,transparent_100%)]"
+              class="relative h-full w-full object-cover object-center [mask-image:linear-gradient(to_bottom,black_80%,transparent_100%)]"
               src="/images/calendario.webp"
               alt=""
             />
@@ -60,7 +60,7 @@ import DotBackground from "../components/DotBackground.astro"
               ¡Dos días de diversión!
             </p>
             <p class="mt-2 text-xs/5 text-pretty text-gray-600 sm:text-sm/6">
-              Apunta en tu calendario, porque LolaLolita Land abre sus puertas el 14 y 15 de junio
+              Apunta en tu calendario, porque Lola Lolita Land abre sus puertas el 14 y 15 de junio
               para darle la bienvenida al verano.
             </p>
           </div>
@@ -70,7 +70,7 @@ import DotBackground from "../components/DotBackground.astro"
         >
         </div>
       </div>
-      <div class="relative lg:col-span-3">
+      <div class="relative lg:col-span-3 view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_1%_contain_3%]">
         <div class="absolute inset-px rounded-lg bg-white lg:rounded-tr-[2rem]"></div>
         <div
           class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-tr-[calc(2rem+1px)]"
@@ -88,7 +88,7 @@ import DotBackground from "../components/DotBackground.astro"
               Un parque acuático lleno de sorpresas
             </p>
             <p class="mt-2 text-xs/5 text-pretty text-gray-600 sm:text-sm/6">
-              Este año LolaLolita Land se celebra en Aquopolis, Madrid, un parque acuático lleno de
+              Este año, Lola Lolita Land se celebrará en Aquopolis Madrid, un parque acuático con numerosos
               toboganes y piscinas.
             </p>
           </div>
@@ -98,7 +98,7 @@ import DotBackground from "../components/DotBackground.astro"
         >
         </div>
       </div>
-      <div class="relative lg:col-span-2">
+      <div class="relative lg:col-span-2 view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_1%_contain_3%]">
         <div class="absolute inset-px rounded-lg bg-white lg:rounded-bl-[2rem]"></div>
         <div
           class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]"
@@ -125,7 +125,7 @@ import DotBackground from "../components/DotBackground.astro"
         >
         </div>
       </div>
-      <div class="relative lg:col-span-2">
+      <div class="relative lg:col-span-2 view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_1%_contain_3%]">
         <div class="absolute inset-px rounded-lg bg-white"></div>
         <div
           class="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]"
@@ -143,14 +143,14 @@ import DotBackground from "../components/DotBackground.astro"
               Invitados especiales
             </p>
             <p class="mt-2 text-xs/5 text-pretty text-gray-600 sm:text-sm/6">
-              Dscubrirás a todos los invitados que nos acompañarán en el evento
+              Descubrirás a todos los invitados que nos acompañarán en el evento.
             </p>
           </div>
         </div>
         <div class="pointer-events-none absolute inset-px rounded-lg shadow-sm ring-1 ring-black/5">
         </div>
       </div>
-      <div class="relative lg:col-span-2">
+      <div class="relative lg:col-span-2 view-animate-[--subjectReveal] animate-zoom-in animate-range-[entry_1%_contain_3%]">
         <div
           class="absolute inset-px rounded-lg bg-white max-lg:rounded-b-[2rem] lg:rounded-br-[2rem]"
         >
@@ -171,7 +171,7 @@ import DotBackground from "../components/DotBackground.astro"
               Una celebración inolvidable
             </p>
             <p class="mt-2 text-xs/5 text-pretty text-gray-600 sm:text-sm/6">
-              Pasaremos un día juntos rodeados de nuestros mejores amigos y familiares.
+              Pasaremos dos días juntos, rodeados de nuestros mejores amigos y familiares.
             </p>
           </div>
         </div>

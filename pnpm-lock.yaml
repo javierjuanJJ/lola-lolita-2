@@ -12,8 +12,8 @@ importers:
         specifier: ^5.2.7
         version: 5.2.7
       '@midudev/tailwind-animations':
-        specifier: ^1.0.1
-        version: 1.0.1(tailwindcss@4.1.17)
+        specifier: 0.2.0
+        version: 0.2.0(tailwindcss@4.1.17)
       '@tailwindcss/vite':
         specifier: ^4.1.17
         version: 4.1.17(vite@6.4.1(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2))
@@ -398,10 +398,10 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@midudev/tailwind-animations@1.0.1':
-    resolution: {integrity: sha512-KOtvFo7LJlw4Xko9akFhPqpGEDx+r/Dle+44G9uBYeiGEJNVUEaEIG251j+USDxPtMV5grJuc4kFxTunv5rZvA==}
+  '@midudev/tailwind-animations@0.2.0':
+    resolution: {integrity: sha512-4mktb060dA7SZz0LjMfhBT30HWPmQENwF4AJC7/etESWohe4pukST0ohC2yAePS5GNinhY3MXmZZ8//2ywafOQ==}
     peerDependencies:
-      tailwindcss: ^4.0.0
+      tailwindcss: ^3.0.0 || ^4.0.0
 
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
@@ -1553,11 +1553,6 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  tailwind-animations@1.0.1:
-    resolution: {integrity: sha512-5ouCdgfGS4kcyuzRSb/1O3o9f5Akssi7ue46PHfKjvPLMWjtnzmqM8i6ElES3tKVTyhjSaTPfLti7aB7WSxhZg==}
-    peerDependencies:
-      tailwindcss: ^4.0.0
-
   tailwindcss@4.1.17:
     resolution: {integrity: sha512-j9Ee2YjuQqYT9bbRTfTZht9W/ytp5H+jJpZKiYdP/bpnXARAuELt9ofP0lPnmHjbga7SNQIxdTAXCmtKVYjN+Q==}
 
@@ -2091,9 +2086,8 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@midudev/tailwind-animations@1.0.1(tailwindcss@4.1.17)':
+  '@midudev/tailwind-animations@0.2.0(tailwindcss@4.1.17)':
     dependencies:
-      tailwind-animations: 1.0.1(tailwindcss@4.1.17)
       tailwindcss: 4.1.17
 
   '@oslojs/encoding@1.1.0': {}
@@ -3523,10 +3517,6 @@ snapshots:
       csso: 5.0.5
       picocolors: 1.1.1
       sax: 1.4.3
-
-  tailwind-animations@1.0.1(tailwindcss@4.1.17):
-    dependencies:
-      tailwindcss: 4.1.17
 
   tailwindcss@4.1.17: {}
 
